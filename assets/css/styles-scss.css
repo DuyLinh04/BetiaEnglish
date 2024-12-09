@@ -1716,6 +1716,9 @@
   margin-bottom: 4%;
   flex: 1;
 }
+.page-layout .page-navigate .lst-tab-nav a {
+  text-decoration: none;
+}
 .page-layout .page-navigate .account-action {
   display: flex;
   justify-content: center;
@@ -1768,4 +1771,134 @@
 .btn-base--blue {
   color: white;
   background-color: #01b3f5;
+}
+
+.Sanpham-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 24px;
+  padding: 2rem;
+}
+.Sanpham-main__title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Sanpham-main__title p {
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #F63B2C;
+}
+.Sanpham-main__title h5 {
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #121D26;
+}
+.Sanpham-main__boxitem {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.Sanpham-main__boxitem .item-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+}
+.Sanpham-main__boxitem .item-product .item-product-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.Sanpham-main__boxitem .item-product .item-product-body__titles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.Sanpham-main__boxitem .item-product .item-product-body__titles h3 {
+  font-family: Myriad Pro;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #121D26;
+}
+.Sanpham-main__boxitem .item-product .item-product-body__titles p {
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #121D26;
+}
+.Sanpham-main__boxitem .item-product .item-product-body__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.Sanpham-main__boxitem .item-product .item-product-body__price p {
+  font-family: Myriad Pro;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #121D26;
+}
+.Sanpham-main__boxitem .item-product .item-product-body__price .vouchers {
+  display: flex;
+  flex-direction: column;
+}
+.Sanpham-main__boxitem .item-product .item-product-body__price .vouchers span {
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FF0000;
+}
+.Sanpham-main__boxitem .item-product .item-product-body__price .vouchers del {
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #A0A5A8;
+}
+.Sanpham-main__boxitem .item-product .item-product-body a {
+  text-decoration: none;
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #36BDF8;
 }
