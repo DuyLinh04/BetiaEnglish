@@ -1,0 +1,73 @@
+@media screen and (min-width: 640px) {
+}
+
+@media screen and (min-width: 640px) and (orientation: landscape) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1289px) {
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../fontsMyriadPro-Regular.eot");
+  src: url("../fontsMyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MyriadPro-Regular.woff2") format("woff2"),
+    url("../fonts/MyriadPro-Regular.woff") format("woff"),
+    url("../fonts/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-style: normal;
+  background-color: #F5F7F9;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#tab-bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:20%;
+  height: 100vh;
+  padding: 20px;
+  background-color: white;
+  
+  position: sticky;
+  top: 0;
+
+  .tab-main{
+    display: flex;
+    flex-direction: column;      
+    align-items: center;
+    width:240px;
+    height: 676px;
+    gap: 32px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+
+
+    &__logo{
+      width: 240px;
+      height: 64px;
+      gap: 5px;
+      opacity: 0px;
+
+    }
+  }
+
+}
+

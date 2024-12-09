@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Teamplate</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/styles-scss.css" />
+    <link rel="stylesheet" href="./assets/scss/main.scss">
+    
+    <!-- <link rel="stylesheet" href="./assets/css/product.css"> -->
+  </head>
+  <body>
+    <div class="Container-main">
+        <div id="tab-bar">
+        <div class="tab-main">
+            <a href="./" class="tab-main__logo">
+                <img src="./assets/imgs/eb62cd4879b060db857df06a54a7fea2 1.png" alt="">
+            </a>
+            <div class="tab-main__link">
+                <div class="link-item">
+                    <a href=""><p>Thông tin tài khoản</p></a>
+                </div>
+                <div class="link-item link-item--active">
+                    <a href=""><p>Sản phẩm</p></a>
+                </div>
+                <div class="link-item">
+                    <a href=""><p>Đại lý trực thuộc</p></a>
+                </div>
+                <div class="link-item">
+                    <a href=""><p>Doanh thu</p></a>
+                </div>
+                <div class="link-item">
+                    <a href=""><p>Chờ thanh toán</p></a>
+                </div>
+                <div class="link-item">
+                    <a href=""><p>Lịch sử</p></a>
+                </div>
+                
+            </div>
+        
+        </div>
+        <div class="">
+              <button class="btn-base">
+                Đăng xuất
+              </button>  
+        </div>
+        
+        
+    </div>
+
+    <div  class="Revenue-main">
+        <div class="Revenue-main__btn">
+            
+            
+                <div class="btn-active--banner">
+                    <img src="./assets/imgs/log-in.png" alt="">
+                </div>
+                <button><p>Quay lại</p></button>
+            
+                
+        </div>
+
+        <div class="Revenue-main__title">
+            <div class="item-tilte">
+                <h5>Quản lý doanh thu</h5>
+                <p>Xem báo cáo doanh thu</p>
+                <p>Doanh thu từ: 20/06/2024 đến 20/08/2024</p>
+            </div>
+            <div class="filler-for-date">
+                <form>
+                    <input type="month" id="month" name="month" placeholder="Chọn tháng">
+                </form>
+                <div class="dropdown">
+                    <label for="drop">Chọn đại lý</label>
+                    <select id="subDrop" name="revenue">
+                        <option value="sb">Đại lý A</option>
+                        <option value="sb">Đại lý B</option>
+                        <option value="sb">Đại lý C</option>
+                        <option value="sb">Đại lý D</option>
+                    </select>
+                </div>
+                
+                <div class="btn-filter">
+                    <button><p>Xem ngay</p></button>
+                </div>
+            </div>
+            
+        </div>            
+
+
+        <div class="Revenue-main__table">
+            <table>
+                        <thead>
+                            <tr>
+                                <th><p>STT</p></th>
+                                <th><p>Ngày</p></th>
+                                <th><p>Số lượng</p></th>
+                                <th><p>Doanh thu vnđ</p></th>
+                                <th><p>Giảm giá vnđ</p></th>
+                                <th><p>Tiền khách thanh toán vnđ</p></th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><p>1</p></td>
+                                <td><p>20/06/2024</p></td>
+                                <td><p>01</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                <td><p>290.00.000</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                
+                            </tr>
+                            <tr>
+                                <td><p>1</p></td>
+                                <td><p>20/06/2024</p></td>
+                                <td><p>01</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                <td><p>290.00.000</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                
+                            </tr>
+                            <tr>
+                                <td><p>1</p></td>
+                                <td><p>20/06/2024</p></td>
+                                <td><p>01</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                <td><p>290.00.000</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                
+                            </tr>
+                            <tr>
+                                <td><p>1</p></td>
+                                <td><p>20/06/2024</p></td>
+                                <td><p>01</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                <td><p>290.00.000</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                
+                            </tr>
+                            <tr>
+                                <td><p>1</p></td>
+                                <td><p>20/06/2024</p></td>
+                                <td><p>01</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                <td><p>290.00.000</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                
+                            </tr>
+                            <tr>
+                                <td><p>1</p></td>
+                                <td><p>20/06/2024</p></td>
+                                <td><p>01</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                <td><p>290.00.000</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                
+                            </tr>
+                            <tr>
+                                <td><p>1</p></td>
+                                <td><p>20/06/2024</p></td>
+                                <td><p>01</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                <td><p>290.00.000</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                
+                            </tr>
+                            <tr>
+                                <td><p>1</p></td>
+                                <td><p>20/06/2024</p></td>
+                                <td><p>01</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                <td><p>290.00.000</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                
+                            </tr>
+                            <tr>
+                                <td><p>1</p></td>
+                                <td><p>20/06/2024</p></td>
+                                <td><p>01</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                <td><p>290.00.000</p></td>
+                                <td><p>10.129.000.000</p></td>
+                                
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+        </div>
+       
+    </div>
+    </div>
+    <script src="../betia-english-main/assets/js/script.js"></script>
+</body>
+</html>

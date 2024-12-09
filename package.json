@@ -1,0 +1,17 @@
+{
+  "name": "betia_events",
+  "version": "0.0.1",
+  "description": "Betia Events",
+  "license": "MIT",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx tailwindcss -i ./styles.css -o ./assets/css/style.css --watch",
+    "runSass": "sass --watch ./assets/scss/main.scss ./assets/css/styles-scss.css --no-source-map"
+  },
+  "dependencies": {
+    "sass": "^1.69.6",
+    "tailwindcss": "^3.4.0",
+    "tw-elements": "^2.0.0",
+    "yarn": "^1.22.21"
+  }
+}

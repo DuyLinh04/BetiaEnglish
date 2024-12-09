@@ -1,0 +1,1771 @@
+.Container-main {
+  display: flex;
+}
+
+.tab-item {
+  display: flex;
+  padding: 16px 12px 16px 12px;
+  gap: 8px;
+  border-radius: 8px;
+}
+.tab-item--active {
+  background: linear-gradient(91.35deg, #0095da 0%, #00bfff 100%);
+  color: white;
+}
+
+#tab-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 100vh;
+  padding: 20px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+#tab-bar .tab-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+#tab-bar .tab-main__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#tab-bar .tab-main__link {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+#tab-bar .tab-main__link .link-item {
+  display: flex;
+  padding: 16px 12px 16px 12px;
+  width: 100%;
+  gap: 8px;
+  border-radius: 8px;
+}
+#tab-bar .tab-main__link .link-item--active {
+  background: linear-gradient(91.35deg, #0095da 0%, #00bfff 100%);
+}
+#tab-bar .tab-main__link .link-item--active p {
+  color: white;
+}
+#tab-bar .tab-main__link .link-item a {
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: black;
+  text-decoration: none;
+}
+
+.btn-base {
+  width: 100%;
+  min-width: 72px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #0095da;
+  color: #0095da;
+  background-color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.btn-base--blue {
+  background-color: #0095da;
+  color: #fff;
+}
+
+.Product-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 50px;
+  padding: 2rem;
+}
+.Product-main__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  gap: 20px;
+}
+.Product-main__btn .item-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding: 0px 12px 0px 12px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: white;
+}
+.Product-main__btn .item-btn button {
+  border: 0;
+  background-color: transparent;
+}
+.Product-main__btn .item-btn button p {
+  width: 132px;
+  height: 22px;
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #0095da;
+}
+.Product-main__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 73px;
+  gap: 1px;
+}
+.Product-main__title h5 {
+  height: 28px;
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #121d26;
+}
+.Product-main__title p {
+  height: 22px;
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #252525;
+}
+.Product-main__table {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 24px 0px 24px 0px;
+  gap: 8px;
+  border-radius: 16px;
+}
+.Product-main__table table {
+  min-width: 1096px;
+  overflow: hidden;
+  width: 100%;
+  border-spacing: 0;
+  border-radius: 16px;
+}
+.Product-main__table table thead tr th p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #105296;
+  margin: 0;
+}
+.Product-main__table table tbody tr:last-child td {
+  border-bottom: none;
+}
+.Product-main__table table tbody tr td .btn-detail {
+  width: 69px;
+  padding: 4px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #0095DA;
+  opacity: 0px;
+}
+.Product-main__table table tbody tr td .btn-detail a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.Product-main__table table tbody tr td .btn-detail a p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Product-main__table table tr {
+  width: 100%;
+}
+.Product-main__table table tr td, .Product-main__table table tr th {
+  justify-items: center;
+  align-content: center;
+  width: 12%;
+  border-bottom: 1px solid #5f5959;
+  padding: 12px 8px;
+}
+.Product-main__table table tr td:nth-child(1), .Product-main__table table tr th:nth-child(1) {
+  width: 5%;
+}
+.Product-main__table table tr td:nth-child(2), .Product-main__table table tr td:nth-child(8), .Product-main__table table tr td:nth-child(9), .Product-main__table table tr th:nth-child(2), .Product-main__table table tr th:nth-child(8), .Product-main__table table tr th:nth-child(9) {
+  width: 8%;
+}
+
+.Cost-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 24px;
+  padding: 2rem;
+}
+.Cost-main__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  gap: 20px;
+}
+.Cost-main__btn .item-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding: 0px 12px 0px 12px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: white;
+}
+.Cost-main__btn .item-btn button {
+  border: 0;
+  background-color: transparent;
+}
+.Cost-main__btn .item-btn button p {
+  width: 132px;
+  height: 22px;
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #0095da;
+}
+.Cost-main__title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 73px;
+}
+.Cost-main__title .item-tilte h5 {
+  height: 28px;
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #121d26;
+}
+.Cost-main__title .item-tilte p {
+  height: 22px;
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #252525;
+}
+.Cost-main__title .filler-for-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.Cost-main__title .filler-for-date form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 240px;
+  height: 50px;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: white;
+}
+.Cost-main__title .filler-for-date form input {
+  border: 0px;
+  width: 100%;
+}
+.Cost-main__title .filler-for-date .btn-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 50px;
+  padding: 16px 12px 16px 12px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: #0197DC;
+}
+.Cost-main__title .filler-for-date .btn-filter button {
+  border: 0px;
+  background-color: #0197DC;
+}
+.Cost-main__title .filler-for-date .btn-filter button p {
+  color: white;
+  font-weight: bold;
+}
+.Cost-main__table {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 24px 0px 24px 0px;
+  gap: 8px;
+  border-radius: 16px;
+}
+.Cost-main__table table {
+  min-width: 1096px;
+  overflow: hidden;
+  width: 100%;
+  border-spacing: 0;
+  border-radius: 16px;
+}
+.Cost-main__table table thead tr th p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #105296;
+  margin: 0;
+}
+.Cost-main__table table tbody tr {
+  border-bottom: 1px #C4C4C4;
+}
+.Cost-main__table table tfoot tr:last-child td {
+  border-bottom: none;
+}
+.Cost-main__table table tfoot tr td {
+  font-weight: bold;
+}
+.Cost-main__table table tr {
+  width: 100%;
+}
+.Cost-main__table table tr td, .Cost-main__table table tr th {
+  justify-items: center;
+  align-content: center;
+  width: 12%;
+  border-bottom: 1px solid #C4C4C4;
+  padding: 12px 8px;
+}
+.Cost-main__table table tr td:nth-child(1), .Cost-main__table table tr th:nth-child(1) {
+  width: 5%;
+}
+.Cost-main__table table tr td:nth-child(2), .Cost-main__table table tr td:nth-child(8), .Cost-main__table table tr td:nth-child(9), .Cost-main__table table tr th:nth-child(2), .Cost-main__table table tr th:nth-child(8), .Cost-main__table table tr th:nth-child(9) {
+  width: 8%;
+}
+
+.Revenue-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 30px;
+  padding: 2rem;
+}
+.Revenue-main__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  max-width: 120px;
+  padding: 12px 20px 12px 20px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: white;
+}
+.Revenue-main__btn button {
+  border: 0px;
+  background-color: white;
+}
+.Revenue-main__btn button p {
+  width: 58px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #01B3F5;
+}
+.Revenue-main__btn .item-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding: 0px 12px 0px 12px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: white;
+}
+.Revenue-main__btn .item-btn button {
+  border: 0;
+  background-color: transparent;
+}
+.Revenue-main__btn .item-btn button p {
+  width: 132px;
+  height: 22px;
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #0095da;
+}
+.Revenue-main__btn:hover {
+  background-color: rgb(214, 188, 239);
+}
+.Revenue-main__btn:hover button:hover {
+  background-color: rgb(214, 188, 239);
+}
+.Revenue-main__btn:hover button:hover p {
+  background-color: rgb(214, 188, 239);
+}
+.Revenue-main__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 73px;
+  gap: 1px;
+}
+.Revenue-main__title .filler-for-date {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.Revenue-main__title .filler-for-date form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 240px;
+  height: 50px;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: white;
+}
+.Revenue-main__title .filler-for-date form input {
+  border: 0px;
+}
+.Revenue-main__title .filler-for-date .btn-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 50px;
+  padding: 16px 12px 16px 12px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: #0197DC;
+}
+.Revenue-main__title .filler-for-date .btn-filter button {
+  border: 0px;
+  background-color: #0197DC;
+}
+.Revenue-main__title .filler-for-date .btn-filter button p {
+  color: white;
+  font-weight: bold;
+}
+.Revenue-main__title .filler-for-date .dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  max-width: 240px;
+  height: 50px;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.Revenue-main__title h5 {
+  height: 28px;
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #121d26;
+}
+.Revenue-main__title p {
+  height: 22px;
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #252525;
+}
+.Revenue-main__table {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 24px 0px 24px 0px;
+  gap: 8px;
+  border-radius: 16px;
+}
+.Revenue-main__table table {
+  min-width: 1096px;
+  overflow: hidden;
+  width: 100%;
+  border-spacing: 0;
+  border-radius: 16px;
+}
+.Revenue-main__table table thead tr th p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #105296;
+  margin: 0;
+}
+.Revenue-main__table table tbody tr:last-child td {
+  border-bottom: none;
+}
+.Revenue-main__table table tbody tr td .btn-detail {
+  width: 69px;
+  padding: 4px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #0095DA;
+  opacity: 0px;
+}
+.Revenue-main__table table tbody tr td .btn-detail a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.Revenue-main__table table tbody tr td .btn-detail a p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Revenue-main__table table tr {
+  width: 100%;
+}
+.Revenue-main__table table tr td, .Revenue-main__table table tr th {
+  justify-items: center;
+  align-content: center;
+  width: 12%;
+  border-bottom: 1px solid #5f5959;
+  padding: 12px 8px;
+}
+.Revenue-main__table table tr td:nth-child(1), .Revenue-main__table table tr th:nth-child(1) {
+  width: 5%;
+}
+.Revenue-main__table table tr td:nth-child(2), .Revenue-main__table table tr td:nth-child(8), .Revenue-main__table table tr td:nth-child(9), .Revenue-main__table table tr th:nth-child(2), .Revenue-main__table table tr th:nth-child(8), .Revenue-main__table table tr th:nth-child(9) {
+  width: 8%;
+}
+
+.Account-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 50px;
+  padding: 2rem;
+}
+.Account-main__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 147px;
+}
+.Account-main__title .user-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.Account-main__title .user-title h4 {
+  width: 235px;
+  height: 34px;
+  font-family: Myriad Pro;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #211C37;
+  margin: 0;
+}
+.Account-main__title .user-title p {
+  width: 90px;
+  height: 20px;
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #85878D;
+}
+.Account-main__title .user-id {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: right;
+}
+.Account-main__title .user-id p {
+  width: 282px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252525;
+  margin: 0;
+}
+.Account-main__title .user-id h5 {
+  width: 282px;
+  height: 28px;
+  margin: 0;
+  color: #0095DA;
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Account-main__btn {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.Account-main__btn .item-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  background-color: white;
+  padding: 16px 12px 16px 12px;
+  border-radius: 8px;
+  border: 0;
+}
+.Account-main__btn .item-btn p {
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(37, 37, 37, 0.6);
+}
+.Account-main__btn .item-btn--active {
+  background: linear-gradient(91.35deg, #0095da 0%, #00bfff 100%);
+}
+.Account-main__btn .item-btn--active p {
+  color: white;
+}
+.Account-main__user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 570px;
+  padding: 24px;
+  gap: 32px;
+  border-radius: 24px;
+  background-color: white;
+}
+.Account-main__user .information-user {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 16px;
+  text-align: left;
+}
+.Account-main__user .information-user .items-line {
+  border-left: 3px solid #FF69B4;
+}
+.Account-main__user .information-user .items-line h4 {
+  margin-left: 5px;
+  font-family: Myriad Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252525;
+}
+.Account-main__user .information-user form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.Account-main__user .information-user form .form-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.Account-main__user .information-user form .form-group label {
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+}
+.Account-main__user .information-user form .form-group div {
+  background-color: #F0F2F5;
+  min-height: 52px;
+  width: 100%;
+  max-width: 300px;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 8px;
+}
+.Account-main__user .information-user form .form-group div input {
+  border: 0px;
+  background-color: #F0F2F5;
+  color: #252525;
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.Referent-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 50px;
+  padding: 2rem;
+}
+.Referent-main__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 147px;
+}
+.Referent-main__title .user-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.Referent-main__title .user-title h4 {
+  width: 235px;
+  height: 34px;
+  font-family: Myriad Pro;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #211C37;
+  margin: 0;
+}
+.Referent-main__title .user-title p {
+  width: 90px;
+  height: 20px;
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #85878D;
+}
+.Referent-main__title .user-id {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: right;
+}
+.Referent-main__title .user-id p {
+  width: 282px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252525;
+  margin: 0;
+}
+.Referent-main__title .user-id h5 {
+  width: 282px;
+  height: 28px;
+  margin: 0;
+  color: #0095DA;
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Referent-main__btn {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.Referent-main__btn .item-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  background-color: white;
+  padding: 16px 12px 16px 12px;
+  border-radius: 8px;
+  border: 0;
+}
+.Referent-main__btn .item-btn p {
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(37, 37, 37, 0.6);
+}
+.Referent-main__btn .item-btn--active {
+  background: linear-gradient(91.35deg, #0095da 0%, #00bfff 100%);
+}
+.Referent-main__btn .item-btn--active p {
+  color: white;
+}
+.Referent-main__user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 570px;
+  padding: 24px;
+  gap: 32px;
+  border-radius: 24px;
+  background-color: white;
+}
+.Referent-main__user .information-user {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 32px;
+  text-align: left;
+}
+.Referent-main__user .information-user .user-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.Referent-main__user .information-user .user-titles .items-line {
+  border-left: 3px solid #FF69B4;
+}
+.Referent-main__user .information-user .user-titles .items-line h4 {
+  margin-left: 5px;
+  font-family: Myriad Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252525;
+}
+.Referent-main__user .information-user .user-titles p {
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #252525;
+}
+.Referent-main__user .information-user .box-referent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.Referent-main__user .information-user .box-referent__code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 454px;
+  height: 52px;
+  gap: 50px;
+}
+.Referent-main__user .information-user .box-referent__code p {
+  width: 150px;
+  height: 20px;
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Referent-main__user .information-user .box-referent__code div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: #F0F2F5;
+}
+.Referent-main__user .information-user .box-referent__code div h5 {
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252525;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Referent-main__user .information-user .box-referent__code div button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 36px;
+  padding: 8px 16px 8px 16px;
+  gap: 16px;
+  border: 0px;
+  border-radius: 8px;
+  background: linear-gradient(91.35deg, #0095DA 0%, #00BFFF 100%);
+}
+.Referent-main__user .information-user .box-referent__code div button p {
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+}
+.Referent-main__user .information-user .box-referent__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 454px;
+  height: 52px;
+  gap: 50px;
+}
+.Referent-main__user .information-user .box-referent__link p {
+  width: 150px;
+  height: 20px;
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Referent-main__user .information-user .box-referent__link div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: #F0F2F5;
+}
+.Referent-main__user .information-user .box-referent__link div h5 {
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #00649D;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Referent-main__user .information-user .box-referent__link div button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 36px;
+  padding: 8px 16px 8px 16px;
+  gap: 16px;
+  border: 0px;
+  border-radius: 8px;
+  background: linear-gradient(91.35deg, #0095DA 0%, #00BFFF 100%);
+}
+.Referent-main__user .information-user .box-referent__link div button p {
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+}
+
+.Instruct-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 50px;
+  padding: 2rem;
+}
+.Instruct-main__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 147px;
+}
+.Instruct-main__title .user-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.Instruct-main__title .user-title h4 {
+  width: 235px;
+  height: 34px;
+  font-family: Myriad Pro;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #211C37;
+  margin: 0;
+}
+.Instruct-main__title .user-title p {
+  width: 90px;
+  height: 20px;
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #85878D;
+}
+.Instruct-main__title .user-id {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: right;
+}
+.Instruct-main__title .user-id p {
+  width: 282px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252525;
+  margin: 0;
+}
+.Instruct-main__title .user-id h5 {
+  width: 282px;
+  height: 28px;
+  margin: 0;
+  color: #0095DA;
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Instruct-main__btn {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.Instruct-main__btn .item-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  background-color: white;
+  padding: 16px 12px 16px 12px;
+  border-radius: 8px;
+  border: 0;
+}
+.Instruct-main__btn .item-btn p {
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(37, 37, 37, 0.6);
+}
+.Instruct-main__btn .item-btn--active {
+  background: linear-gradient(91.35deg, #0095da 0%, #00bfff 100%);
+}
+.Instruct-main__btn .item-btn--active p {
+  color: white;
+}
+.Instruct-main__user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 570px;
+  padding: 24px;
+  gap: 32px;
+  border-radius: 24px;
+  background-color: white;
+}
+.Instruct-main__user .information-user {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 16px;
+  text-align: left;
+}
+.Instruct-main__user .information-user .items-line {
+  border-left: 3px solid #FF69B4;
+}
+.Instruct-main__user .information-user .items-line h4 {
+  margin-left: 5px;
+  font-family: Myriad Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252525;
+}
+.Instruct-main__user .information-user .box-tilte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.Instruct-main__user .information-user .box-tilte .box-videos {
+  position: relative;
+}
+.Instruct-main__user .information-user .box-tilte .audio-instruct {
+  position: absolute;
+  top: 21.57px;
+  left: 21.54px;
+  right: 33.54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 359px;
+  width: 547px;
+  border: 4.55px;
+  border-image-source: linear-gradient(148.92deg, #B3B3B3 7.08%, #6C6C6C 51.8%);
+  border-radius: 53.07px;
+}
+.Instruct-main__user .information-user .box-tilte .item-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.Instruct-main__user .information-user .box-tilte .item-titles h5 {
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #121D26;
+}
+.Instruct-main__user .information-user .box-tilte .item-titles p {
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #121D26;
+}
+
+.WaitPay-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 16px;
+  padding: 2rem;
+}
+.WaitPay-main__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 73px;
+  gap: 1px;
+}
+.WaitPay-main__title h5 {
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #F79C1F;
+}
+.WaitPay-main__table {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 24px 0px 24px 0px;
+  gap: 8px;
+  border-radius: 16px;
+}
+.WaitPay-main__table table {
+  min-width: 1096px;
+  overflow: hidden;
+  width: 100%;
+  border-spacing: 0;
+  border-radius: 16px;
+}
+.WaitPay-main__table table thead tr th p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #105296;
+  margin: 0;
+}
+.WaitPay-main__table table tbody tr:last-child td {
+  border-bottom: none;
+}
+.WaitPay-main__table table tbody tr td .btn-detail {
+  width: 69px;
+  padding: 4px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #0095DA;
+  opacity: 0px;
+}
+.WaitPay-main__table table tbody tr td .btn-detail a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.WaitPay-main__table table tbody tr td .btn-detail a p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.WaitPay-main__table table tbody tr td:nth-child(8) {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #F79C1F;
+}
+.WaitPay-main__table table tbody tr td .btn-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 0px;
+}
+.WaitPay-main__table table tbody tr td .btn-detail a {
+  display: flex;
+  padding: 4px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #0095DA;
+}
+.WaitPay-main__table table tbody tr td .btn-detail a p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.WaitPay-main__table table tr {
+  width: 100%;
+}
+.WaitPay-main__table table tr td, .WaitPay-main__table table tr th {
+  justify-items: center;
+  align-content: center;
+  width: 12%;
+  border-bottom: 1px solid #5f5959;
+  padding: 12px 8px;
+}
+.WaitPay-main__table table tr td:nth-child(1), .WaitPay-main__table table tr th:nth-child(1) {
+  width: 5%;
+}
+.WaitPay-main__table table tr td:nth-child(2), .WaitPay-main__table table tr td:nth-child(8), .WaitPay-main__table table tr td:nth-child(9), .WaitPay-main__table table tr th:nth-child(2), .WaitPay-main__table table tr th:nth-child(8), .WaitPay-main__table table tr th:nth-child(9) {
+  width: 8%;
+}
+
+.PaySuccess-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 16px;
+  padding: 2rem;
+}
+.PaySuccess-main__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 73px;
+  gap: 1px;
+}
+.PaySuccess-main__title h5 {
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #F79C1F;
+}
+.PaySuccess-main__table {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 24px 0px 24px 0px;
+  gap: 8px;
+  border-radius: 16px;
+}
+.PaySuccess-main__table table {
+  min-width: 1096px;
+  overflow: hidden;
+  width: 100%;
+  border-spacing: 0;
+  border-radius: 16px;
+}
+.PaySuccess-main__table table thead tr th p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #105296;
+  margin: 0;
+}
+.PaySuccess-main__table table tbody tr:last-child td {
+  border-bottom: none;
+}
+.PaySuccess-main__table table tbody tr td .btn-detail {
+  width: 69px;
+  padding: 4px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #0095DA;
+  opacity: 0px;
+}
+.PaySuccess-main__table table tbody tr td .btn-detail a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.PaySuccess-main__table table tbody tr td .btn-detail a p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.PaySuccess-main__table table tbody tr td:nth-child(8) {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #F79C1F;
+}
+.PaySuccess-main__table table tbody tr td .btn-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 0px;
+}
+.PaySuccess-main__table table tbody tr td .btn-detail a {
+  display: flex;
+  padding: 4px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #0095DA;
+}
+.PaySuccess-main__table table tbody tr td .btn-detail a p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.PaySuccess-main__table table tr {
+  width: 100%;
+}
+.PaySuccess-main__table table tr td, .PaySuccess-main__table table tr th {
+  justify-items: center;
+  align-content: center;
+  width: 12%;
+  border-bottom: 1px solid #5f5959;
+  padding: 12px 8px;
+}
+.PaySuccess-main__table table tr td:nth-child(1), .PaySuccess-main__table table tr th:nth-child(1) {
+  width: 5%;
+}
+.PaySuccess-main__table table tr td:nth-child(2), .PaySuccess-main__table table tr td:nth-child(8), .PaySuccess-main__table table tr td:nth-child(9), .PaySuccess-main__table table tr th:nth-child(2), .PaySuccess-main__table table tr th:nth-child(8), .PaySuccess-main__table table tr th:nth-child(9) {
+  width: 8%;
+}
+
+.SigninMember-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 32px;
+  margin: 2rem;
+  background-color: white;
+  border-radius: 24px;
+}
+.SigninMember-main__box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 30px;
+}
+.SigninMember-main__box .items-line {
+  border-left: 3px solid #FF69B4;
+}
+.SigninMember-main__box .items-line h4 {
+  margin-left: 5px;
+  font-family: Myriad Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252525;
+}
+.SigninMember-main__box p {
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #121D26;
+  margin: 0;
+}
+.SigninMember-main__box .item-boxs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.SigninMember-main__box .item-boxs .form-group {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  height: 52px;
+  gap: 4px;
+}
+.SigninMember-main__box .item-boxs .form-group label {
+  width: 100px;
+  height: 20px;
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.SigninMember-main__box .item-boxs .form-group div {
+  display: flex;
+  width: 100%;
+  max-width: 300px;
+  height: 52px;
+  padding: 16px;
+  gap: 8px;
+  border: 1px;
+}
+.SigninMember-main__box .item-boxs .form-group div input {
+  border: 0px;
+  background-color: white;
+}
+.SigninMember-main__box .item-boxs .form-group div #username, .SigninMember-main__box .item-boxs .form-group div #goID, .SigninMember-main__box .item-boxs .form-group div #phone {
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252525;
+}
+.SigninMember-main__box .item-boxs .form-group div #email, .SigninMember-main__box .item-boxs .form-group div #code {
+  font-family: Myriad Pro;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(37, 37, 37, 0.6);
+}
+.SigninMember-main__box .item-boxs .form-group .item-input {
+  width: 300px;
+  height: 52px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #F0F2F5;
+}
+.SigninMember-main__box .item-boxs .form-group .item-input input {
+  background-color: #F0F2F5;
+}
+.SigninMember-main__box .item-boxs button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  padding: 16px 12px 16px 12px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: #0197DC;
+  border: 0px;
+}
+.SigninMember-main__box .item-boxs button p {
+  font-family: Myriad Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+}
+
+.page-layout {
+  display: flex;
+}
+.page-layout .page-navigate {
+  flex: 0 0 20%;
+  padding: 1.5rem;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.page-layout .page-navigate .logo-betia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-layout .page-navigate .lst-tab-nav {
+  margin-bottom: 4%;
+  flex: 1;
+}
+.page-layout .page-navigate .account-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-layout .page-content {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: #ffffff;
+}
+
+.nav-item {
+  width: 100%;
+  padding: 1rem 0.75rem;
+  color: #252525;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.nav-item:last-child {
+  margin-bottom: 0;
+}
+.nav-item--active, .nav-item:hover {
+  background: linear-gradient(to right, #0095da, #00bfff);
+  color: white;
+}
+
+.btn-base {
+  width: fit-content;
+  min-width: 120px;
+  min-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid #01b3f5;
+  color: #01b3f5;
+  padding: 0.75rem 1.25rem;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-base:hover {
+  color: white;
+  background-color: #01b3f5;
+}
+.btn-base--blue {
+  color: white;
+  background-color: #01b3f5;
+}
