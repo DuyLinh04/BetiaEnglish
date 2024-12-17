@@ -6,6 +6,8 @@ $white-base: #fff;
 
 .Container-main{
   display: flex;
+  gap: 20px;
+  // justify-content: space-between;
 }
 
 .tab-item {
@@ -2030,9 +2032,14 @@ $blue-01B3F5: #01b3f5;
 
 .page-layout {
   display: flex;
-
+  width: 280px;
+  position: fixed;
+  
   .page-navigate {
-    flex: 0 0 20%;
+    // flex: 0 0 20%;
+    // position: fixed;
+    // top: 0;
+    width: 100%;
     padding: 1.5rem;
     background-color: #f4f4f4;
     height: 100vh;

@@ -1,5 +1,6 @@
 .Container-main {
   display: flex;
+  gap: 20px;
 }
 
 .tab-item {
@@ -1697,9 +1698,11 @@
 
 .page-layout {
   display: flex;
+  width: 280px;
+  position: fixed;
 }
 .page-layout .page-navigate {
-  flex: 0 0 20%;
+  width: 100%;
   padding: 1.5rem;
   background-color: #f4f4f4;
   height: 100vh;
