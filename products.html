@@ -8,261 +8,242 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/styles-scss.css" />
-    <link rel="stylesheet" href="./assets/scss/main.scss">
+    <link rel="stylesheet" href="./assets/scss/main.scss" />
     <!-- <link rel="stylesheet" href="./assets/css/product.css"> -->
   </head>
   <body>
-    <div class="Container-main">
-        <section>
-            <div class="page-layout">
-              <div class="page-navigate">
-                <div class="logo-betia">
-                  <a href="~/">
-                    <img src="./assets/imgs/eb62cd4879b060db857df06a54a7fea2 1.png" alt="">
-                    </a>
-                </div>
-                
-                <div class="lst-tab-nav">
-                  <div class="nav-item nav-item--active">
-                    <a href="./account.html">Thông tin tài khoản</a>
-                  </div>
-        
-                  <div class="nav-item">
-                    <a href="./sanpham.html">Sản phẩm</a>
-                  </div>
-        
-                  <div class="nav-item">
-                    <a href="./products.html">Đại lý trực thuộc</a>
-                  </div>
-        
-                  <div class="nav-item">
-                    <a href="./revenue.html">Doanh thu</a>
-                  </div>
-        
-                  <div class="nav-item">
-                    <a href="./waitPays.html">Chờ thanh toán</a>
-                  </div>
-                  <div class="nav-item">
-                    <a href="./paySuccess.html">Lịch sử</a>
-                  </div>
-                </div>
-        
-                <div class="account-action">
-                  <button type="button" class="btn-base btn-base--blue">
-                    Đăng xuất
-                  </button>
-                </div>
-              </div>
-              
-            </div>
-          </section>
+    <section>
+      <div class="page-layout">
+        <div class="page-navigate">
+          <div class="logo-betia">
+            <a href="~/">
+              <img
+                src="./assets/imgs/eb62cd4879b060db857df06a54a7fea2 1.png"
+                alt=""
+              />
+            </a>
+          </div>
 
-    <div  class="Product-main">
-        <div class="Product-main__btn">
-            
-            <div class="item-btn">
+          <div class="lst-tab-nav">
+            <a href="./account.html" class="nav-item nav-item--active"
+              >Thông tin tài khoản</a
+            >
+
+            <a href="./sanpham.html" class="nav-item">Sản phẩm</a>
+
+            <a href="./products.html" class="nav-item">Đại lý trực thuộc</a>
+
+            <a href="./revenue.html" class="nav-item">Doanh thu</a>
+
+            <a href="./waitPays.html" class="nav-item">Chờ thanh toán</a>
+
+            <a href="./paySuccess.html" class="nav-item">Lịch sử</a>
+          </div>
+
+          <div class="account-action">
+            <button type="button" class="btn-base btn-base--blue">
+              Đăng xuất
+            </button>
+          </div>
+        </div>
+        <div class="page-content">
+          <div class="Product-main">
+            <div class="Product-main__btn">
+              <div class="item-btn">
                 <div class="btn-active--banner">
-                    <img src="./assets/imgs/award.png" alt="">
+                  <img src="./assets/imgs/award.png" alt="" />
                 </div>
                 <button><p>Danh sách đại lý</p></button>
-            </div>
-            <div class="item-btn">
+              </div>
+              <div class="item-btn">
                 <div class="btn-active--banner">
-                    <img src="./assets/imgs/award.png" alt="">
+                  <img src="./assets/imgs/award.png" alt="" />
                 </div>
                 <button><p>Quản lý doanh thu</p></button>
+              </div>
             </div>
-        </div>
 
-        <div class="Product-main__title">
-            <h5>Danh sách đại lý trực thuộc</h5>
-            <p>Dưới đây là danh sách các danh sách các Đại lý trực thuộc của bạn</p>
-            <p>Nhấn vào"Chi tiết" để xem cụ thể từng Đại lý</p>
-        </div>
+            <div class="Product-main__title">
+              <h5>Danh sách đại lý trực thuộc</h5>
+              <p>
+                Dưới đây là danh sách các danh sách các Đại lý trực thuộc của
+                bạn
+              </p>
+              <p>Nhấn vào"Chi tiết" để xem cụ thể từng Đại lý</p>
+            </div>
 
-
-        <div class="Product-main__table">
-            <table>
-                        <thead>
-                            <tr>
-                                <th><p>STT</p></th>
-                                <th><p>goID</p></th>
-                                <th><p>Username</p></th>
-                                <th><p>Fullname</p></th>
-                                <th><p>Phone</p></th>
-                                <th><p>Email</p></th>
-                                <th><p>Created date</p></th>
-                                <th><p>Status</p></th>
-                                <th><p>Detail</p></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><p>1</p></td>
-                                <td><p>123456</p></td>
-                                <td><p>admin</p></td>
-                                <td><p>Tài khoản admin</p></td>
-                                <td><p>0987654321</p></td>
-                                <td><p>admin@example.com</p></td>
-                                <td><p>20/06/2024</p></td>
-                                <td><p>Hoạt động</p></td>
-                                <td>
-                                    <div class="btn-detail">
-                                        <a href="#"><p>Chi tiết</p></a>
-                                    </div>
-                                    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><p>1</p></td>
-                                <td><p>123456</p></td>
-                                <td><p>admin</p></td>
-                                <td><p>Tài khoản admin</p></td>
-                                <td><p>0987654321</p></td>
-                                <td><p>admin@example.com</p></td>
-                                <td><p>20/06/2024</p></td>
-                                <td><p>Hoạt động</p></td>
-                                <td>
-                                    <div class="btn-detail">
-                                        <a href="#"><p>Chi tiết</p></a>
-                                    </div>
-                                    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><p>1</p></td>
-                                <td><p>123456</p></td>
-                                <td><p>admin</p></td>
-                                <td><p>Tài khoản admin</p></td>
-                                <td><p>0987654321</p></td>
-                                <td><p>admin@example.com</p></td>
-                                <td><p>20/06/2024</p></td>
-                                <td><p>Hoạt động</p></td>
-                                <td>
-                                    <div class="btn-detail">
-                                        <a href="#"><p>Chi tiết</p></a>
-                                    </div>
-                                    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><p>1</p></td>
-                                <td><p>123456</p></td>
-                                <td><p>admin</p></td>
-                                <td><p>Tài khoản admin</p></td>
-                                <td><p>0987654321</p></td>
-                                <td><p>admin@example.com</p></td>
-                                <td><p>20/06/2024</p></td>
-                                <td><p>Hoạt động</p></td>
-                                <td>
-                                    <div class="btn-detail">
-                                        <a href="#"><p>Chi tiết</p></a>
-                                    </div>
-                                    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><p>1</p></td>
-                                <td><p>123456</p></td>
-                                <td><p>admin</p></td>
-                                <td><p>Tài khoản admin</p></td>
-                                <td><p>0987654321</p></td>
-                                <td><p>admin@example.com</p></td>
-                                <td><p>20/06/2024</p></td>
-                                <td><p>Hoạt động</p></td>
-                                <td>
-                                    <div class="btn-detail">
-                                        <a href="#"><p>Chi tiết</p></a>
-                                    </div>
-                                    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><p>1</p></td>
-                                <td><p>123456</p></td>
-                                <td><p>admin</p></td>
-                                <td><p>Tài khoản admin</p></td>
-                                <td><p>0987654321</p></td>
-                                <td><p>admin@example.com</p></td>
-                                <td><p>20/06/2024</p></td>
-                                <td><p>Hoạt động</p></td>
-                                <td>
-                                    <div class="btn-detail">
-                                        <a href="#"><p>Chi tiết</p></a>
-                                    </div>
-                                    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><p>1</p></td>
-                                <td><p>123456</p></td>
-                                <td><p>admin</p></td>
-                                <td><p>Tài khoản admin</p></td>
-                                <td><p>0987654321</p></td>
-                                <td><p>admin@example.com</p></td>
-                                <td><p>20/06/2024</p></td>
-                                <td><p>Hoạt động</p></td>
-                                <td>
-                                    <div class="btn-detail">
-                                        <a href="#"><p>Chi tiết</p></a>
-                                    </div>
-                                    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><p>1</p></td>
-                                <td><p>123456</p></td>
-                                <td><p>admin</p></td>
-                                <td><p>Tài khoản admin</p></td>
-                                <td><p>0987654321</p></td>
-                                <td><p>admin@example.com</p></td>
-                                <td><p>20/06/2024</p></td>
-                                <td><p>Hoạt động</p></td>
-                                <td>
-                                    <div class="btn-detail">
-                                        <a href="#"><p>Chi tiết</p></a>
-                                    </div>
-                                    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><p>1</p></td>
-                                <td><p>123456</p></td>
-                                <td><p>admin</p></td>
-                                <td><p>Tài khoản admin</p></td>
-                                <td><p>0987654321</p></td>
-                                <td><p>admin@example.com</p></td>
-                                <td><p>20/06/2024</p></td>
-                                <td><p>Hoạt động</p></td>
-                                <td>
-                                    <div class="btn-detail">
-                                        <a href="#"><p>Chi tiết</p></a>
-                                    </div>
-                                    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><p>1</p></td>
-                                <td><p>123456</p></td>
-                                <td><p>admin</p></td>
-                                <td><p>Tài khoản admin</p></td>
-                                <td><p>0987654321</p></td>
-                                <td><p>admin@example.com</p></td>
-                                <td><p>20/06/2024</p></td>
-                                <td><p>Hoạt động</p></td>
-                                <td>
-                                    <div class="btn-detail">
-                                        <a href="#"><p>Chi tiết</p></a>
-                                    </div>
-                                    
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="Product-main__table">
+              <table>
+                <thead>
+                  <tr>
+                    <th><p>STT</p></th>
+                    <th><p>goID</p></th>
+                    <th><p>Username</p></th>
+                    <th><p>Fullname</p></th>
+                    <th><p>Phone</p></th>
+                    <th><p>Email</p></th>
+                    <th><p>Created date</p></th>
+                    <th><p>Status</p></th>
+                    <th><p>Detail</p></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><p>1</p></td>
+                    <td><p>123456</p></td>
+                    <td><p>admin</p></td>
+                    <td><p>Tài khoản admin</p></td>
+                    <td><p>0987654321</p></td>
+                    <td><p>admin@example.com</p></td>
+                    <td><p>20/06/2024</p></td>
+                    <td><p>Hoạt động</p></td>
+                    <td>
+                      <div class="btn-detail">
+                        <a href="#"><p>Chi tiết</p></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><p>1</p></td>
+                    <td><p>123456</p></td>
+                    <td><p>admin</p></td>
+                    <td><p>Tài khoản admin</p></td>
+                    <td><p>0987654321</p></td>
+                    <td><p>admin@example.com</p></td>
+                    <td><p>20/06/2024</p></td>
+                    <td><p>Hoạt động</p></td>
+                    <td>
+                      <div class="btn-detail">
+                        <a href="#"><p>Chi tiết</p></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><p>1</p></td>
+                    <td><p>123456</p></td>
+                    <td><p>admin</p></td>
+                    <td><p>Tài khoản admin</p></td>
+                    <td><p>0987654321</p></td>
+                    <td><p>admin@example.com</p></td>
+                    <td><p>20/06/2024</p></td>
+                    <td><p>Hoạt động</p></td>
+                    <td>
+                      <div class="btn-detail">
+                        <a href="#"><p>Chi tiết</p></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><p>1</p></td>
+                    <td><p>123456</p></td>
+                    <td><p>admin</p></td>
+                    <td><p>Tài khoản admin</p></td>
+                    <td><p>0987654321</p></td>
+                    <td><p>admin@example.com</p></td>
+                    <td><p>20/06/2024</p></td>
+                    <td><p>Hoạt động</p></td>
+                    <td>
+                      <div class="btn-detail">
+                        <a href="#"><p>Chi tiết</p></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><p>1</p></td>
+                    <td><p>123456</p></td>
+                    <td><p>admin</p></td>
+                    <td><p>Tài khoản admin</p></td>
+                    <td><p>0987654321</p></td>
+                    <td><p>admin@example.com</p></td>
+                    <td><p>20/06/2024</p></td>
+                    <td><p>Hoạt động</p></td>
+                    <td>
+                      <div class="btn-detail">
+                        <a href="#"><p>Chi tiết</p></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><p>1</p></td>
+                    <td><p>123456</p></td>
+                    <td><p>admin</p></td>
+                    <td><p>Tài khoản admin</p></td>
+                    <td><p>0987654321</p></td>
+                    <td><p>admin@example.com</p></td>
+                    <td><p>20/06/2024</p></td>
+                    <td><p>Hoạt động</p></td>
+                    <td>
+                      <div class="btn-detail">
+                        <a href="#"><p>Chi tiết</p></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><p>1</p></td>
+                    <td><p>123456</p></td>
+                    <td><p>admin</p></td>
+                    <td><p>Tài khoản admin</p></td>
+                    <td><p>0987654321</p></td>
+                    <td><p>admin@example.com</p></td>
+                    <td><p>20/06/2024</p></td>
+                    <td><p>Hoạt động</p></td>
+                    <td>
+                      <div class="btn-detail">
+                        <a href="#"><p>Chi tiết</p></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><p>1</p></td>
+                    <td><p>123456</p></td>
+                    <td><p>admin</p></td>
+                    <td><p>Tài khoản admin</p></td>
+                    <td><p>0987654321</p></td>
+                    <td><p>admin@example.com</p></td>
+                    <td><p>20/06/2024</p></td>
+                    <td><p>Hoạt động</p></td>
+                    <td>
+                      <div class="btn-detail">
+                        <a href="#"><p>Chi tiết</p></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><p>1</p></td>
+                    <td><p>123456</p></td>
+                    <td><p>admin</p></td>
+                    <td><p>Tài khoản admin</p></td>
+                    <td><p>0987654321</p></td>
+                    <td><p>admin@example.com</p></td>
+                    <td><p>20/06/2024</p></td>
+                    <td><p>Hoạt động</p></td>
+                    <td>
+                      <div class="btn-detail">
+                        <a href="#"><p>Chi tiết</p></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><p>1</p></td>
+                    <td><p>123456</p></td>
+                    <td><p>admin</p></td>
+                    <td><p>Tài khoản admin</p></td>
+                    <td><p>0987654321</p></td>
+                    <td><p>admin@example.com</p></td>
+                    <td><p>20/06/2024</p></td>
+                    <td><p>Hoạt động</p></td>
+                    <td>
+                      <div class="btn-detail">
+                        <a href="#"><p>Chi tiết</p></a>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
-       
-    </div>
-    </div>
-    
-</body>
+      </div>
+    </section>
+  </body>
 </html>

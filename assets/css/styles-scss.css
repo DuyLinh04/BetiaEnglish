@@ -1,6 +1,5 @@
 .Container-main {
   display: flex;
-  gap: 20px;
 }
 
 .tab-item {
@@ -88,7 +87,6 @@
 .Product-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
   gap: 50px;
   padding: 2rem;
 }
@@ -401,9 +399,7 @@
 .Revenue-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
   gap: 30px;
-  padding: 2rem;
 }
 .Revenue-main__btn {
   display: flex;
@@ -626,9 +622,7 @@
 .Account-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
   gap: 50px;
-  padding: 2rem;
 }
 .Account-main__title {
   display: flex;
@@ -1305,9 +1299,7 @@
 .WaitPay-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
   gap: 16px;
-  padding: 2rem;
 }
 .WaitPay-main__title {
   display: flex;
@@ -1398,6 +1390,7 @@
   flex-direction: column;
   gap: 4px;
   border: 0px;
+  width: 100%;
 }
 .WaitPay-main__table table tbody tr td .btn-detail a {
   display: flex;
@@ -1435,9 +1428,7 @@
 .PaySuccess-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
   gap: 16px;
-  padding: 2rem;
 }
 .PaySuccess-main__title {
   display: flex;
@@ -1696,19 +1687,26 @@
   color: #FFFFFF;
 }
 
+section {
+  width: 100%;
+}
+
 .page-layout {
   display: flex;
-  width: 280px;
-  position: fixed;
+  width: 100%;
 }
 .page-layout .page-navigate {
-  width: 100%;
+  width: 20%;
   padding: 1.5rem;
   background-color: #f4f4f4;
   height: 100vh;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 .page-layout .page-navigate .logo-betia {
   display: flex;
@@ -1716,6 +1714,8 @@
   align-items: center;
 }
 .page-layout .page-navigate .lst-tab-nav {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 4%;
   flex: 1;
 }
@@ -1728,9 +1728,9 @@
   align-items: center;
 }
 .page-layout .page-content {
+  width: 80%;
   flex: 1;
   padding: 1.5rem;
-  background-color: #ffffff;
 }
 
 .nav-item {
@@ -1779,9 +1779,7 @@
 .Sanpham-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
   gap: 24px;
-  padding: 2rem;
 }
 .Sanpham-main__title {
   display: flex;

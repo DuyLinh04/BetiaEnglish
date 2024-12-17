@@ -6,7 +6,7 @@ $white-base: #fff;
 
 .Container-main{
   display: flex;
-  gap: 20px;
+  
   // justify-content: space-between;
 }
 
@@ -108,10 +108,9 @@ $white-base: #fff;
 .Product-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  
   gap: 50px;
   padding: 2rem;
-
   &__btn {
     display: flex;
     justify-content: center;
@@ -511,9 +510,9 @@ $white-base: #fff;
 .Revenue-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  
   gap: 30px;
-  padding: 2rem;
+  
 
   &__btn {
     display: flex;
@@ -794,9 +793,8 @@ $white-base: #fff;
 .Account-main{
   display: flex;
   flex-direction: column;
-  width: 80%;
   gap: 50px;
-  padding: 2rem;
+  
 
 
   &__title{
@@ -1539,9 +1537,9 @@ $white-base: #fff;
 .WaitPay-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  
   gap: 16px;
-  padding: 2rem;
+  
 
  
 
@@ -1661,6 +1659,7 @@ $white-base: #fff;
               flex-direction: column;
               gap: 4px;
               border: 0px;
+              width: 100%;
               a{
                 display: flex;
                 padding: 4px;
@@ -1714,9 +1713,9 @@ $white-base: #fff;
 .PaySuccess-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  
   gap: 16px;
-  padding: 2rem;
+  
 
  
 
@@ -2029,23 +2028,28 @@ $white-base: #fff;
 
 $grey-252525: #252525;
 $blue-01B3F5: #01b3f5;
-
+section{
+  width: 100%;
+}
 .page-layout {
   display: flex;
-  width: 280px;
-  position: fixed;
+  
+  width: 100%;
   
   .page-navigate {
-    // flex: 0 0 20%;
-    // position: fixed;
-    // top: 0;
-    width: 100%;
+    
+    width: 20%;
     padding: 1.5rem;
     background-color: #f4f4f4;
     height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    
     .logo-betia {
       display: flex;
       justify-content: center;
@@ -2053,6 +2057,8 @@ $blue-01B3F5: #01b3f5;
       
     }
     .lst-tab-nav {
+      display: flex;
+      flex-direction: column;
       margin-bottom: 4%;
       flex: 1;
       a{
@@ -2068,9 +2074,10 @@ $blue-01B3F5: #01b3f5;
   }
 
   .page-content {
+    width: 80%;
     flex: 1;
     padding: 1.5rem;
-    background-color: #ffffff;
+    
   }
 }
 
@@ -2127,9 +2134,9 @@ $blue-01B3F5: #01b3f5;
 .Sanpham-main{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  
   gap: 24px;
-  padding: 2rem;
+  
   
 
   &__title{
